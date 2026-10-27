@@ -1,5 +1,7 @@
-name: build
-on: [push, pull_request]
+'on':
+  push: null
+  pull_request: null
+  workflow_dispatch: null
 jobs:
   build:
     strategy:
